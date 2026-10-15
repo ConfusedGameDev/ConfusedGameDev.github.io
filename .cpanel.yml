@@ -1,0 +1,8 @@
+---
+# cPanel Git Version Control deployment (confusedgame.dev).
+# Runs from the repository root after "Pull or Deploy" / "Deploy HEAD Commit".
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hgvkz1pk94iz/public_html/
+    - /bin/cp -f index.html app-ads.txt $DEPLOYPATH
+    - /bin/cp -Rf assets PrivacyPolicy ARTest ARTEST2 roomy $DEPLOYPATH
