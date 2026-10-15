@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="1280" height="800" shape-rendering="crispEdges">
+  <title>Super Tennis Deluxo</title>
+  <rect width="160" height="100" fill="#0f380f"/>
+  <!-- court -->
+  <rect x="24" y="14" width="112" height="72" fill="#306230"/>
+  <rect x="26" y="16" width="108" height="68" fill="#8bac0f"/>
+  <rect x="26" y="16" width="108" height="2" fill="#9bbc0f"/>
+  <rect x="26" y="82" width="108" height="2" fill="#9bbc0f"/>
+  <rect x="26" y="16" width="2" height="68" fill="#9bbc0f"/>
+  <rect x="132" y="16" width="2" height="68" fill="#9bbc0f"/>
+  <rect x="34" y="16" width="2" height="68" fill="#9bbc0f"/>
+  <rect x="124" y="16" width="2" height="68" fill="#9bbc0f"/>
+  <rect x="52" y="30" width="56" height="2" fill="#9bbc0f"/>
+  <rect x="52" y="68" width="56" height="2" fill="#9bbc0f"/>
+  <rect x="79" y="30" width="2" height="40" fill="#9bbc0f"/>
+  <!-- net -->
+  <rect x="22" y="48" width="116" height="4" fill="#0f380f"/>
+  <rect x="22" y="48" width="116" height="1" fill="#9bbc0f"/>
+  <g fill="#306230">
+    <rect x="24" y="49" width="1" height="3"/><rect x="28" y="49" width="1" height="3"/><rect x="32" y="49" width="1" height="3"/><rect x="36" y="49" width="1" height="3"/><rect x="40" y="49" width="1" height="3"/><rect x="44" y="49" width="1" height="3"/><rect x="48" y="49" width="1" height="3"/><rect x="52" y="49" width="1" height="3"/><rect x="56" y="49" width="1" height="3"/><rect x="60" y="49" width="1" height="3"/><rect x="64" y="49" width="1" height="3"/><rect x="68" y="49" width="1" height="3"/><rect x="72" y="49" width="1" height="3"/><rect x="76" y="49" width="1" height="3"/><rect x="80" y="49" width="1" height="3"/><rect x="84" y="49" width="1" height="3"/><rect x="88" y="49" width="1" height="3"/><rect x="92" y="49" width="1" height="3"/><rect x="96" y="49" width="1" height="3"/><rect x="100" y="49" width="1" height="3"/><rect x="104" y="49" width="1" height="3"/><rect x="108" y="49" width="1" height="3"/><rect x="112" y="49" width="1" height="3"/><rect x="116" y="49" width="1" height="3"/><rect x="120" y="49" width="1" height="3"/><rect x="124" y="49" width="1" height="3"/><rect x="128" y="49" width="1" height="3"/><rect x="132" y="49" width="1" height="3"/><rect x="136" y="49" width="1" height="3"/>
+  </g>
+  <!-- far player -->
+  <g fill="#0f380f">
+    <rect x="96" y="20" width="4" height="3"/><rect x="95" y="23" width="6" height="4"/><rect x="96" y="27" width="4" height="2"/><rect x="94" y="24" width="1" height="3"/><rect x="101" y="22" width="1" height="4"/>
+    <rect x="102" y="18" width="3" height="4" fill="#306230"/><rect x="103" y="19" width="1" height="2" fill="#9bbc0f"/>
+  </g>
+  <!-- near player -->
+  <g fill="#0f380f">
+    <rect x="56" y="64" width="6" height="4"/><rect x="55" y="68" width="8" height="6"/><rect x="56" y="74" width="2" height="4"/><rect x="60" y="74" width="2" height="4"/><rect x="53" y="69" width="2" height="4"/><rect x="63" y="66" width="2" height="4"/>
+    <rect x="64" y="60" width="5" height="6" fill="#306230"/><rect x="65" y="61" width="3" height="4" fill="#9bbc0f"/><rect x="66" y="66" width="1" height="2"/>
+  </g>
+  <!-- ball + shadow -->
+  <rect x="74" y="44" width="3" height="2" fill="#306230"/>
+  <rect x="74" y="38" width="3" height="3" fill="#9bbc0f"/>
+  <rect x="75" y="38" width="1" height="1" fill="#0f380f"/>
+  <!-- title -->
+  <g font-family="'Courier New', Courier, monospace" font-weight="700" fill="#9bbc0f" text-anchor="middle">
+    <text x="80" y="9" font-size="7" letter-spacing="0.6">SUPER TENNIS</text>
+    <text x="80" y="96" font-size="6" letter-spacing="1" fill="#8bac0f">DELUXO</text>
+  </g>
+</svg>
