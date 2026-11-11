@@ -118,7 +118,7 @@
     .tile .t-kind { font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; opacity: .8; }
     .tile.photo { padding: 0; }
     .tile.photo::before { display: none; }
-    .tile.photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+    .tile.photo img { width: 100%; height: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .6s var(--ease); }
     .tile.photo img.pixel { image-rendering: pixelated; }
     .card:hover .tile.photo img { transform: scale(1.04); }
     .tile::after { content: "▶"; position: absolute; inset-inline-end: 12px; top: 12px; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 70%, transparent); color: var(--text); font-size: 0.8rem; opacity: 0; transition: opacity .25s; }
@@ -132,6 +132,7 @@
     .card-links a { display: inline-flex; align-items: center; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--text); font-size: 0.82rem; font-weight: 500; transition: border-color .2s, background .2s; }
     .card-links a:hover { text-decoration: none; background: var(--surface-2); border-color: #3a4357; }
     .card-links a.play { background: var(--accent); color: var(--accent-ink); border-color: transparent; font-weight: 600; }
+    .tile.dl::after { content: "↓"; font-size: 1rem; }
     .card-links a.play:hover { background: #63ead0; }
 
     .outro { border-top: 1px solid var(--line); padding-block: clamp(40px, 6vw, 72px) 0; }
@@ -197,6 +198,21 @@
               <h2>Star Picket</h2>
               <p class="desc">Sector patrol shooter in the spirit of the early-eighties arcade. Drag to steer while the guns fire fore and aft, clear every station, and catch the spy ship before Condition Red.</p>
               <div class="card-links"><a class="play" href="https://star-picket.vercel.app" target="_blank" rel="noopener">Play</a></div>
+            </div>
+          </article>
+
+          <article class="card reveal" style="--tile-accent:#ffc861">
+            <a class="tile photo dl" href="../assets/roms/star-picket-retro.gba" download aria-label="Download the Star Picket Retro ROM">
+              <img class="pixel" src="../assets/img/agentic/star-picket-retro.webp" alt="Star Picket Retro title screen on Game Boy Advance, with Launch, Top Pilots and Credits" width="720" height="480" loading="lazy" decoding="async">
+            </a>
+            <div class="card-body">
+              <div class="card-meta"><span class="badge">Game Boy Advance · Rust</span><span>2026</span></div>
+              <h2>Star Picket Retro</h2>
+              <p class="desc">Star Picket ported to the Game Boy Advance in Rust with the agb crate. Five station designs rotated by the hardware, enemy squadrons, the spy ship and Condition Red, and a top-ten board saved to the cartridge. Runs in any GBA emulator or on real hardware with a flash cart.</p>
+              <div class="card-links">
+                <a class="play" href="../assets/roms/star-picket-retro.gba" download>Download ROM (.gba)</a>
+                <a href="https://star-picket.vercel.app" target="_blank" rel="noopener">Web version</a>
+              </div>
             </div>
           </article>
 
